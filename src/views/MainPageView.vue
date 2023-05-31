@@ -1,9 +1,14 @@
 <template>
-    <h1 class="text-3xl font-bold underline">Hello world...</h1>
+    <Landing />
+    <EmptySpace />
 </template>
 
 <script>
+import Landing from "../components/Landing.vue";
+import EmptySpace from "../components/EmptySpace.vue";
+
     export default {
-        name: 'MainPageView'
-    }
+    name: "MainPageView",
+    components: { Landing, EmptySpace }
+}
 </script>
