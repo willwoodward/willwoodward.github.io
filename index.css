@@ -1,0 +1,21 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+#heading-div {
+    padding-top: 250px;
+    margin-left: 128px;
+    width: 50%;
+}
+
+#main-div {
+    display: flex;
+    position: relative;
+    height: 100vh;
+}
+
+#black {
+    background-color: black;
+    width: 50%;
+}
